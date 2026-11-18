@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;85115c0f949e1d9077dad1127bb49bce4ebcdcf65dfbe3d87abfc818f233d234;C:/Users/RAHUL/Desktop/EmployeeManagementSystem/frontend/src/app/pages/dashboard/dashboard.component.ts"],
+  "sourcesContent": ["\n    .bg-emerald-light {\n      background-color: #ecfdf5;\n    }\n  "],
+  "mappings": ";AACI,CAAC;AACC,oBAAkB;AACpB;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;e5c98cad4404511c4dd84d868dab665c19d43aacb7772a0ed6bff38a2bb310e1;C:/Users/RAHUL/Desktop/EmployeeManagementSystem/frontend/src/app/components/navbar/navbar.component.ts"],
+  "sourcesContent": ["\n    .top-navbar {\n      height: 68px;\n      position: sticky;\n      top: 0;\n      z-index: 1020;\n      box-shadow: 0 1px 3px rgba(0,0,0,0.04);\n    }\n  "],
+  "mappings": ";AACI,CAAC;AACC,UAAQ;AACR,YAAU;AACV,OAAK;AACL,WAAS;AACT,cAAY,EAAE,IAAI,IAAI,KAAK,CAAC,EAAC,CAAC,EAAC,CAAC,EAAC;AACnC;",
+  "names": []
+}

@@ -1,0 +1,240 @@
+/* ==========================================================
+   Design System & Global Styles
+   Modern Dashboard Theme (Indigo, Slate & Emerald)
+   ========================================================== */
+
+:root {
+  --primary: #4f46e5;
+  --primary-hover: #4338ca;
+  --primary-light: #eef2ff;
+  --primary-glow: rgba(79, 70, 229, 0.15);
+  
+  --secondary: #64748b;
+  --success: #10b981;
+  --success-light: #d1fae5;
+  --warning: #f59e0b;
+  --warning-light: #fef3c7;
+  --danger: #ef4444;
+  --danger-light: #fee2e2;
+  --info: #0ea5e9;
+  --info-light: #e0f2fe;
+
+  --bg-main: #f8fafc;
+  --card-bg: #ffffff;
+  --sidebar-bg: #0f172a;
+  --sidebar-hover: #1e293b;
+  --sidebar-text: #94a3b8;
+  --sidebar-active-text: #ffffff;
+
+  --border-color: #e2e8f0;
+  --text-main: #1e293b;
+  --text-muted: #64748b;
+  --text-subtle: #94a3b8;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.08), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.08), 0 4px 6px -4px rgb(0 0 0 / 0.04);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.08), 0 8px 10px -6px rgb(0 0 0 / 0.04);
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--text-main);
+  background-color: var(--bg-main);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', 'Inter', sans-serif;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+/* Custom Card Styles */
+.custom-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.25s ease-in-out;
+}
+
+.custom-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+/* Modern Metric Stats Cards */
+.stat-card {
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  background: #ffffff;
+  padding: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.stat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+.stat-icon-wrapper {
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  padding: 0.6rem 1.25rem;
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: var(--primary-hover);
+  border-color: var(--primary-hover);
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.35);
+}
+
+.btn-outline-primary {
+  color: var(--primary);
+  border-color: var(--primary);
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+}
+
+/* Badges */
+.badge-active {
+  background-color: var(--success-light);
+  color: #065f46;
+  font-weight: 600;
+  padding: 0.35rem 0.75rem;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.badge-inactive {
+  background-color: var(--danger-light);
+  color: #991b1b;
+  font-weight: 600;
+  padding: 0.35rem 0.75rem;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.badge-dept {
+  background-color: var(--primary-light);
+  color: var(--primary);
+  font-weight: 600;
+  padding: 0.35rem 0.75rem;
+  border-radius: 20px;
+}
+
+/* Table Styling */
+.custom-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.custom-table thead th {
+  background-color: #f8fafc;
+  color: #64748b;
+  font-weight: 600;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.custom-table tbody tr {
+  transition: background-color 0.15s ease;
+}
+
+.custom-table tbody tr:hover {
+  background-color: #f1f5f9;
+}
+
+.custom-table tbody td {
+  padding: 1rem 1.25rem;
+  vertical-align: middle;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 0.92rem;
+}
+
+/* Form Controls */
+.form-control, .form-select {
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-color);
+  padding: 0.65rem 0.95rem;
+  font-size: 0.95rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-glow);
+}
+
+/* Avatars */
+.avatar-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.avatar-lg {
+  width: 72px;
+  height: 72px;
+  font-size: 1.75rem;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

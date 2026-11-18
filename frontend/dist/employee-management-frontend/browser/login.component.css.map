@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;bc1d12420f297e402081724706d3a45753909cdb64ddb9eebe477259258b4d7a;C:/Users/RAHUL/Desktop/EmployeeManagementSystem/frontend/src/app/pages/login/login.component.ts"],
+  "sourcesContent": ["\n    .login-wrapper {\n      background: radial-gradient(circle at 10% 20%, rgba(79, 70, 229, 0.08) 0%, rgba(248, 250, 252, 1) 90%);\n    }\n\n    .login-header {\n      background: linear-gradient(135deg, #1e1b4b 0%, #312e81 50%, #4338ca 100%);\n    }\n\n    .brand-badge {\n      width: 58px;\n      height: 58px;\n      border-radius: 16px;\n      background: rgba(255, 255, 255, 0.15);\n      backdrop-filter: blur(8px);\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      border: 1px solid rgba(255, 255, 255, 0.2);\n    }\n  "],
+  "mappings": ";AACI,CAAC;AACC;AAAA,IAAY;AAAA,MAAgB,OAAO,GAAG,IAAI,GAA9B;AAAA,MAAmC,KAAK,EAAE,EAAE,EAAE,EAAE,GAAG,EAAE,MAAM,EAA3D;AAAA,MAA+D,KAAK,GAAG,EAAE,GAAG,EAAE,GAAG,EAAE,GAAG;AACpG;AAEA,CAAC;AACC;AAAA,IAAY;AAAA,MAAgB,MAAhB;AAAA,MAAwB,QAAQ,EAAhC;AAAA,MAAoC,QAAQ,GAA5C;AAAA,MAAiD,QAAQ;AACvE;AAEA,CAAC;AACC,SAAO;AACP,UAAQ;AACR,iBAAe;AACf,cAAY,KAAK,GAAG,EAAE,GAAG,EAAE,GAAG,EAAE;AAChC,mBAAiB,KAAK;AACtB,WAAS;AACT,eAAa;AACb,mBAAiB;AACjB,UAAQ,IAAI,MAAM,KAAK,GAAG,EAAE,GAAG,EAAE,GAAG,EAAE;AACxC;",
+  "names": []
+}

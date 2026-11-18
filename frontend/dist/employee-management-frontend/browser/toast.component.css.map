@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;b741681761a926f1f64ae94cf5aa7a7e78f309ce5a42555343649a930c525261;C:/Users/RAHUL/Desktop/EmployeeManagementSystem/frontend/src/app/components/toast/toast.component.ts"],
+  "sourcesContent": ["\n    .toast {\n      border-radius: 10px;\n      animation: slideIn 0.3s ease-out;\n    }\n    @keyframes slideIn {\n      from { transform: translateX(100%); opacity: 0; }\n      to { transform: translateX(0); opacity: 1; }\n    }\n  "],
+  "mappings": ";AACI,CAAC;AACC,iBAAe;AACf,aAAW,QAAQ,KAAK;AAC1B;AACA,WAFa;AAGX;AAAO,eAAW,WAAW;AAAO,aAAS;AAAG;AAChD;AAAK,eAAW,WAAW;AAAI,aAAS;AAAG;AAC7C;",
+  "names": []
+}
